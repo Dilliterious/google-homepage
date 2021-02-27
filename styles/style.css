@@ -6,7 +6,7 @@ body {
     font-size: 0.9em;
 }
 
-ul {
+header ul {
     list-style-type: none;
     text-align: right;
 }
@@ -18,10 +18,27 @@ li {
     margin: 0em 1em 0em 1em;
 }
 
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightgray;
+    color:rgb(106, 106, 107)
+}
+
+footer p {
+    padding-top: 0.8em;
+    margin-left: 3.5em;
+}
+
 .searchbar {
     width: 40em;
     padding: 0px 20px 0px 20px;
-    margin: 0px auto 0px auto;
+    margin: 2em auto 2em auto;
     border-style: solid;
     border-radius: 50px;
     border-width: 1pt;
@@ -53,6 +70,8 @@ li {
 #logo {
     display: flex;
     justify-content: center;
+    position: relative;
+    margin-top: 10%;
 }
 #mag-glass {
     width: 1em;
@@ -63,4 +82,10 @@ li {
     border-style: solid;
     border-radius: 50%;
     border-width: 0px;
+}
+
+#footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
