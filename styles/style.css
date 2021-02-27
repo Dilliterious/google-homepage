@@ -3,16 +3,30 @@ body {
     background-color: white;
     height: 100vh;
     font-family: Arial;
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0em 1em 0em 1em;
 }
 
 .searchbar {
-    width: 50em;
+    width: 40em;
     padding: 0px 20px 0px 20px;
     margin: 0px auto 0px auto;
     border-style: solid;
     border-radius: 50px;
     border-width: 1pt;
-    border-color: gray;
+    border-color: lightgray;
+    color: gray;
 }
 
 .buttons {
@@ -43,4 +57,10 @@ body {
 #mag-glass {
     width: 1em;
     height: auto;
+}
+
+#user-icon {
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 0px;
 }
