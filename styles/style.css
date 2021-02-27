@@ -1,0 +1,37 @@
+.main {
+    width: 200 px;
+    background-color: pink;
+}
+nav {
+    height:40px;
+    background-color: yellow;
+}
+.upper-whitespace {
+    background-color:chartreuse;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.logo-holder {
+    margin-top: auto;
+}
+.searchbar-holder {
+    height: 200px;
+    background-color: red;
+}
+.lower-whitespace {
+    height: 200px;
+    background-color: blue;
+}
+footer {
+    height:40px;
+    background-color: yellow;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+}
